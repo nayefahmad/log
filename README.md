@@ -54,18 +54,45 @@
     - The fact that the time component of the hazard function (i.e., the baseline function) remains unspecified makes the CoxPH model ill-suited for actual survival function predictions.
   - Multi-task logistic regression (MTLR) approach:
     - ...because we are not analyzing the effects of recurrent events, we need to make sure that when a unit experiences an event on interval as with s ∈ [[1, J]], its status for the remaining intervals stays the same
-    - 
+   
+- **DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks (pdf:http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit)**
+  - Authors: C. Lee at al. 
+  - tag:survival_analysis, tag:machine_learning
 
 
-## Blog posts 
-- [Liquidity modeling in real estate using survival analysis](https://www.opendoor.com/articles/liquidity-modeling-real-estate-survival-analysis)
+
+## Blog posts/Videos
+- **[Liquidity modeling in real estate using survival analysis](https://www.opendoor.com/articles/liquidity-modeling-real-estate-survival-analysis)**
   - tags: survival_analysis
   - Three framings:
     - regression
     - classification
     - "survival analysis": expand the dataset and then use classification. This is the "discrete-time modeling" approach. See these links:
       - https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01679-6
-      - 
+
+- **[Predicting Time-to-Event Outcomes - A Tour of Survival Analysis from Classical to Modern](https://www.youtube.com/watch?v=G5Q-JuVzFE0)**
+  - Presenter: George H. Chen: https://www.andrew.cmu.edu/user/georgech/ 
+  - Presentation materials: https://sites.google.com/view/survival-analysis-tutorial 
+  - See https://github.com/havakv/pycox for discrete-time models
+  - Censoring percentage of 40% or more is highly censored, and results will not be good 
+  - Deep learning models based on Cox PH:
+    - DeepSurv
+    - Cox-Time
+    - Cox-CC (case-control)
+  - Deep learning models based on discrete-time modeling:
+    - Note: KM is an example of a discrete-time model.
+    - Multi-task logistic regression
+    - nnet-survival
+    - Deep kernel survival analysis
+    - DeepHit
+      - Can also handle competing events
+      - One of the most popular ones now 
+    - Generative models:
+      - Deep survival analysis (Ranganath et al, 2016)
+      - Deep survival machines (Nagpal et al, 2019)
+      - Neural survival-supervised topic models (Li et al, 2020)
+  - KKBox dataset is one of the largest ones out there. See https://www.kaggle.com/competitions/kkbox-churn-prediction-challenge/discussion/45926
+  - In healthcare, predicting time to death with ~10s of features generally gives c-index scores under 0.80
  
 
 

@@ -2,14 +2,14 @@
 
 ## Papers 
 - **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**
-  - tags: survival_analysis, nlp, llm
+  - tag:survival_analysis, tag:nlp, tag:llm
   - [github link](https://github.com/jjnunez11/scar_nlp_survival)
   - BOW: feature is standard BOW vector, target is binary. Model is logistic regression, not survival analysis. Instead of predicting P(event in horizon) or E(num events in horizon), we set the horizon at different values (6, 12 months), and do logistic regression for each. 
   - CNN: features are word embeddings of length 300.
   - BERT: `best-base-uncased` checkpoint. Classifier head is `nn.Linear(self.bert.config.hidden_size, out_features=1)`. Loss is [BCEWithLogitsLoss](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html). 
 
 - **[Survival prediction models: an introduction to discrete-time modeling](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01679-6)**
-  - tags: survival_analysis, machine_learning
+  - tag:survival_analysis, tag:machine_learning
   - [github link](https://github.com/ksuresh17/autoSurv)
   - Continuous-time framing:
     - Existing ML algorithms for survival include penalized Cox regression, boosted Cox regression, survival trees and random survival forests, support vector regression, and neural networks.
@@ -24,7 +24,7 @@
     - Fig 4: survival estimates from the discrete-time models are a step function with the number of steps being equivalent to the number of tuned intervals. The steps in the Cox PH model and RSF correspond to event times in the data set.
 
 - **[Empirical Comparison of Continuous and Discrete-time Representations for Survival Prediction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8232898/)**
-  - tags: survival_analysis, machine_learning
+  - tag:survival_analysis, tag:machine_learning
   - The main difference between survival prediction and other prediction problems in machine learning is the presence of incomplete observations, where we have only partial information about the outcomes for some examples due to censoring. Typical machine learning algorithms cannot incorporate this partial information, so survival prediction algorithms need to be created to accommodate censoring. Classical methods for survival analysis have typically treated the time to event as a continuous outcome. The classical survival prediction problem is thus formulated as a censored regression problem. Such approaches require some assumptions on the survival times and include both semi-parametric and parametric models. The most commonly used semi-parametric model is the Cox Proportional Hazards (CoxPH) model (Cox, 1972), which makes the proportional hazards assumption about survival times.
   - An alternative approach to survival prediction is to discretize the survival times into a set of time bins. This is done by assuming some maximum time or horizon (e.g. 20 years) and then dividing time into equally-spaced bins (e.g. 20 bins each representing 1 year). This reformulates the survival prediction problem as a sequence of binary classification problems, which is a type of multi-task learning problem. Such an approach is both convenient and does not require any assumptions on the distribution of the survival times. This discrete-time approach forms the basis for many recently-proposed survival prediction algorithms (Yu et al., 2011; Li et al., 2016a; Lee et al., 2018; Giunchiglia et al., 2018; Ren et al., 2019; Wulczyn et al., 2020).
   - We examine three research questions in this paper:
@@ -42,7 +42,7 @@
     - See https://square.github.io/pysurvival/models/linear_mtlr.html 
 
 - **Deep Neural Networks for Survival Analysis Based on a Multi-Task Framework (pdf: https://arxiv.org/pdf/1801.05512)**
-  - tags: survival_analysis, machine_learning
+  - tag:survival_analysis, tag:machine_learning
   - The most common survival analysis modeling techniques are the Kaplan-Meier (KM) model [16] and Cox Proportional Hazard (CoxPH) model [3]. The KM model provides a very easy way to compute the survival function of an entire cohort, but doesn’t do so for a specific individual. The CoxPH model’s approach enables the end-user to predict the survival and hazard functions of an individual based on its feature vector, but exhibits the following limitations:
     - It assumes that the hazard function, or more precisely the log of the hazard ratio, is powered by a linear combination of features of an individual.
     - It relies on the proportional hazard assumption, which specifies that the hazard function of two individuals has to be constant over time.

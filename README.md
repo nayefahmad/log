@@ -1,2 +1,68 @@
 # log
 
+## Papers 
+- **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**
+  - tags: survival_analysis, nlp, llm
+  - [github link](https://github.com/jjnunez11/scar_nlp_survival)
+  - BOW: feature is standard BOW vector, target is binary. Model is logistic regression, not survival analysis. Instead of predicting P(event in horizon) or E(num events in horizon), we set the horizon at different values (6, 12 months), and do logistic regression for each. 
+  - CNN: features are word embeddings of length 300.
+  - BERT: `best-base-uncased` checkpoint. Classifier head is `nn.Linear(self.bert.config.hidden_size, out_features=1)`. Loss is [BCEWithLogitsLoss](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html). 
+
+- **[Survival prediction models: an introduction to discrete-time modeling](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01679-6)**
+  - tags: survival_analysis, machine_learning
+  - [github link](https://github.com/ksuresh17/autoSurv)
+  - Continuous-time framing:
+    - Existing ML algorithms for survival include penalized Cox regression, boosted Cox regression, survival trees and random survival forests, support vector regression, and neural networks.
+    - Neural networks for survival have expanded on the Cox PH model [14, 42, 43], but again only output a prognostic index and not the survival probability, thus requiring additional estimation of the baseline hazard using the Breslow estimator
+    - With random survival forests, we take b=1,…,B bootstrap samples from the original data set. For each bootstrap sample b, we grow a survival tree, where for each node we consider a set of randomly selected p candidate predictors rather than the full set of predictors, and split the node on the predictor that maximizes the dissimilarity measure. We grow the survival tree until each terminal node has no fewer than d0 unique deaths. In each terminal node, we compute the conditional cumulative hazard function using the Nelson-Aalen estimator, a non-parametric estimator of the survival function, using the subjects that are in the bootstrap sample b whose predictors place them in that terminal node.
+  - Discrete-time survival models:
+    - In the discrete-time framework, we assume that the available data is the same but we define the hazard function and the link between the hazard and survival functions differently. We divide the continuous survival time into a sequence of J contiguous time intervals (t0,t1],(t1,t2],…,(tJ−1,tJ], where t0=0. Within this framework the hazard, or instantaneous risk of the event, in a particular interval is the probability of an individual experiencing the event during that interval given that they have survived up to the start of that interval. **So, in discrete time, the hazard is a conditional probability rather than a rate, and as such its value lies between zero and one**.
+    - Dataset format: transform from continuous-time data to a "person-period data set". See Fig 1. 
+    - Due to the binomial structure of the likelihood function in Eq. (2) the discrete survival time formulation is general and any algorithm that can optimize a binomial log-likelihood can be used to obtain parameter estimates. Thus, within this approach we can apply any method for computing the probability of a binary event and can choose from various binary classification methods, from traditional regression methods to more complex machine learning approaches
+    - The advantage of a discrete-time survival approach is that it does not require a proportional hazards assumption for the survival time distribution. As well, it provides a more intuitive interpretation since the hazard function represents the probability of experiencing the event in an interval given the person is alive at the start of the interval. Discrete-time models are also able to handle tied failure times without adjustments [26], as is required in Cox PH modeling due to its assumption of a continuous hazard in which ties are not possible [3].
+    - Hyperparameter tuning: For the discrete-time prediction models, we additionally treat the number of intervals as a hyperparameter [49]. Tuning can be performed by identifying a reasonable range for the hyperparameter values, selecting a method by which to sample the values, and selecting a metric to assess performance. The model is fit for all of the sampled hyperparameter values and evaluated on the validation data. The tuned hyperparameter values are selected as those that optimize the performance metric. Methods of sampling the values include grid search, random search, and Bayesian optimization that uses the results from the previous iteration to improve the sampling of hyperparameter values for the current iteration [57–59]. 
+    - Fig 4: survival estimates from the discrete-time models are a step function with the number of steps being equivalent to the number of tuned intervals. The steps in the Cox PH model and RSF correspond to event times in the data set.
+
+- **[Empirical Comparison of Continuous and Discrete-time Representations for Survival Prediction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8232898/)**
+  - tags: survival_analysis, machine_learning
+  - The main difference between survival prediction and other prediction problems in machine learning is the presence of incomplete observations, where we have only partial information about the outcomes for some examples due to censoring. Typical machine learning algorithms cannot incorporate this partial information, so survival prediction algorithms need to be created to accommodate censoring. Classical methods for survival analysis have typically treated the time to event as a continuous outcome. The classical survival prediction problem is thus formulated as a censored regression problem. Such approaches require some assumptions on the survival times and include both semi-parametric and parametric models. The most commonly used semi-parametric model is the Cox Proportional Hazards (CoxPH) model (Cox, 1972), which makes the proportional hazards assumption about survival times.
+  - An alternative approach to survival prediction is to discretize the survival times into a set of time bins. This is done by assuming some maximum time or horizon (e.g. 20 years) and then dividing time into equally-spaced bins (e.g. 20 bins each representing 1 year). This reformulates the survival prediction problem as a sequence of binary classification problems, which is a type of multi-task learning problem. Such an approach is both convenient and does not require any assumptions on the distribution of the survival times. This discrete-time approach forms the basis for many recently-proposed survival prediction algorithms (Yu et al., 2011; Li et al., 2016a; Lee et al., 2018; Giunchiglia et al., 2018; Ren et al., 2019; Wulczyn et al., 2020).
+  - We examine three research questions in this paper:
+    - RQ1 How much does discretizing time decrease the accuracy of a continuous-time survival prediction algorithm?
+      - we compare the C-indices for the CoxPH model fit to the continuous survival times and for the CoxPH models fit to the discretized times. Across all data sets, there is very little difference between the two C-indices regardless of the number of time bins, both for the validation and the test sets. The minor differences are likely as a result of hyperparameter tuning rather than the time discretization. Thus, it appears that discretizing time has minimal effect on the accuracy of continuous-time survival prediction on real data provided that a reasonable number of bins are used.
+      - Our findings for RQ1 were somewhat surprising to us, as they suggest that the actual survival times provide little value beyond their grouping into time bins! A possible explanation for this finding is that the continuous-time prediction model is not able to predict the order of closely-timed events, and thus providing finer-grained time information does not significantly improve prediction accuracy. 
+    - RQ2 How does the number of discrete time bins affect the accuracy of a discrete-time survival prediction algorithm?
+      - As the number of time bins gets extremely small (2 bins in the most extreme case), we are discarding a lot of information about timing of events by combining events that are not closely timed into the same bin. Thus, one might expect to see prediction accuracy increase as the number of bins increases. In the multi-task binary classification formulation used in MTLR, however, increasing the number of bins also increases the number of classification tasks, which increases the number of parameters in the model. As we found for RQ1, there is very little information to be gained in survival times beyond a certain level of granularity. Hence, we eventually begin to add more parameters without adding additional signal, which suggests that prediction accuracy should begin to decrease if the number of time bins gets too high, which we do observe.
+      - **This suggests that the number of time bins should be treated as a hyperparameter to be optimized in discrete-time survival prediction models.**
+    - RQ3 Does the added flexibility of the discrete-time formulation lead to an increase in accuracy that compensates for any decreases in accuracy to discretizing time?
+  - Fig 1: different number of bins for same model
+  - There are several advantages of using discrete time to event setting. They do not require any proportional hazard-like assumptions on the distribution of the survival times because any discrete distribution is valid. They also allow the survival prediction problem to be formulated as a sequence of binary classification problems. Finally, compared to continuous time models, interpreting the hazard functions in discrete time models becomes easier as they are expressed as conditional probabilities, and they can handle ties easily.
+  - To overcome the proportional hazards assumption in the CoxPH model, Yu et al. (2011) proposed a multi-task logistic regression (MTLR) approach to survival analysis and demonstrated superior performance compared to the CoxPH model on several real data sets. Rather than the hazard function, it directly models the survival function by combining local logistic regression models so that censored observations and time varying effects of features are naturally handled. The survival time s is encoded as a binary sequence of survival statuses y whose probability of observation is represented as a generalization of a logistic regression model
+  - We used the CoxPH model from the scikit-survival package (Pölsterl, 2020) and the MTLR model from PySurvival (Fotso et al., 2019–)
+    - See https://square.github.io/pysurvival/models/linear_mtlr.html 
+
+- **Deep Neural Networks for Survival Analysis Based on a Multi-Task Framework (pdf: https://arxiv.org/pdf/1801.05512)**
+  - tags: survival_analysis, machine_learning
+  - The most common survival analysis modeling techniques are the Kaplan-Meier (KM) model [16] and Cox Proportional Hazard (CoxPH) model [3]. The KM model provides a very easy way to compute the survival function of an entire cohort, but doesn’t do so for a specific individual. The CoxPH model’s approach enables the end-user to predict the survival and hazard functions of an individual based on its feature vector, but exhibits the following limitations:
+    - It assumes that the hazard function, or more precisely the log of the hazard ratio, is powered by a linear combination of features of an individual.
+    - It relies on the proportional hazard assumption, which specifies that the hazard function of two individuals has to be constant over time.
+    - The exact formula of the model that can handle ties isn’t computationally efficient, and is often rewritten using approximations, such as the Efron’s[5] or Breslow’s[2] approximations, in order to fit the model in a reasonable time.
+    - The fact that the time component of the hazard function (i.e., the baseline function) remains unspecified makes the CoxPH model ill-suited for actual survival function predictions.
+  - Multi-task logistic regression (MTLR) approach:
+    - ...because we are not analyzing the effects of recurrent events, we need to make sure that when a unit experiences an event on interval as with s ∈ [[1, J]], its status for the remaining intervals stays the same
+    - 
+
+
+## Blog posts 
+- [Liquidity modeling in real estate using survival analysis](https://www.opendoor.com/articles/liquidity-modeling-real-estate-survival-analysis)
+  - tags: survival_analysis
+  - Three framings:
+    - regression
+    - classification
+    - "survival analysis": expand the dataset and then use classification. This is the "discrete-time modeling" approach. See these links:
+      - https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01679-6
+      - 
+ 
+
+
+## Cards 

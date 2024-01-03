@@ -58,6 +58,21 @@
 - **DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks (pdf:http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit)**
   - Authors: C. Lee at al. 
   - tag:survival_analysis, tag:machine_learning
+ 
+ - **Analysis of recurrent event data (doi:https://doi.org/10.1016/S0169-7161(03)23034-0)**
+   - Authors: Cai and Schaubel
+   - tag:survival_analysis
+   - Classification of semiparametric models for recurrent event data:
+     - Conditional regression models
+       - AG
+       - PWP
+       - Chang and Wang 
+     - Others:
+       - WLW marginal hazards
+       - Pepe and Cai rate models
+       - Marginal means/rates models
+         - The majority of the models previously discussed in this chapter have focused on the hazard or intensity function. In the context of recurrent event data, the mean number of events is a more interpretable quantity, particularly for non-statisticians, and is often of direct interest to investigators. For these reasons, a marginal means/rates model may be
+preferred, where the rate function is the derivative of the mean function.
 
 
 

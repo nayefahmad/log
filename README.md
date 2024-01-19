@@ -126,4 +126,5 @@ preferred, where the rate function is the derivative of the mean function.
 - 423: logits
 - 186, 222: conditional independence
 - 424: nonparametric conditional survival
-- 308: kernel function as a generalization of inner product 
+- 308: kernel function as a generalization of inner product
+- 64: overview of logistic regression 

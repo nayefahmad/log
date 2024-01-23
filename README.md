@@ -74,7 +74,7 @@
          - The majority of the models previously discussed in this chapter have focused on the hazard or intensity function. In the context of recurrent event data, the mean number of events is a more interpretable quantity, particularly for non-statisticians, and is often of direct interest to investigators. For these reasons, a marginal means/rates model may be
 preferred, where the rate function is the derivative of the mean function.
 
-- #[Deep recurrent survival analysis](https://arxiv.org/abs/1809.02403)#
+- **[Deep recurrent survival analysis](https://arxiv.org/abs/1809.02403)**
   - Authors: Ren et al. 
   - tag:survival_analysis, tag:machine_learning
   - [github link](https://github.com/rk2900/DRSA)
@@ -83,7 +83,13 @@ preferred, where the rate function is the derivative of the mean function.
     - MUSIC
     - BIDDING
   - Compared against KM, lasso-Cox, ... DeepSurv, DeepHit
-    - Metrics: c-index and average negative log probability (ANLP) 
+    - Metrics: c-index and average negative log probability (ANLP)
+   
+- **Assessment and comparison of prognostic classification schemes for survival data**
+  - Authors: Graf et al.
+  - tag:survival_analysis
+  - Mentions Brier score and Integrated Brier Score
+  - Also see https://stats.stackexchange.com/questions/507633/intuition-behind-brier-score-weighing-step-for-censored-data 
 
 
 

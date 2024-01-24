@@ -88,8 +88,17 @@ preferred, where the rate function is the derivative of the mean function.
 - **Assessment and comparison of prognostic classification schemes for survival data**
   - Authors: Graf et al.
   - tag:survival_analysis
-  - Mentions Brier score and Integrated Brier Score
-  - Also see https://stats.stackexchange.com/questions/507633/intuition-behind-brier-score-weighing-step-for-censored-data 
+  - Mentions Brier score and Integrated Brier Score. **Lower scores are better**. 
+    - Brier score can be calculated for any time horizon t*.
+      - E.g. a test set TBE is (100 FH, event_indicator=1). We can set t* = 50, calculate S_hat(t*), and incorporate this into the BS. The contribution to BS will be different at t*=60, 70, 80, ... up to 99. 
+        - The above example is Category 2: when TBE >= t* (and event_indicator is either 0 or 1). These can always be incorporated into the BS. 
+        - Category 1: TBE <= t* and event_indicator=1. These can always be incorporated into the BS. 
+        - Category 3: TBE <= T* and event_indicator=0. This cannot be incorporated into the BS.
+      - We can also integrate the BS over all t* values to give a single value - integrated Brier score (IBS). 
+  - Interesting methodology: fit a Cox PH model, use it to define sub-groups (based on which variables are significant). Then fit separate KM curves based on those sub-groups (instead of just doing a pooled KM curve) 
+  - KM curve vs Cox PH (and other models) are evaluated in terms of BS(t*=5), and IBS (and other metrics).
+  - Also see https://stats.stackexchange.com/questions/507633/intuition-behind-brier-score-weighing-step-for-censored-data
+
 
 
 

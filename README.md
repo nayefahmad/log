@@ -91,9 +91,10 @@ preferred, where the rate function is the derivative of the mean function.
   - Mentions Brier score and Integrated Brier Score. **Lower scores are better**. 
     - Brier score can be calculated for any time horizon t*.
       - E.g. a test set TBE is (100 FH, event_indicator=1). We can set t* = 50, calculate S_hat(t*), and incorporate this into the BS. The contribution to BS will be different at t*=60, 70, 80, ... up to 99. 
-        - The above example is Category 2: when TBE >= t* (and event_indicator is either 0 or 1). These can always be incorporated into the BS. 
-        - Category 1: TBE <= t* and event_indicator=1. These can always be incorporated into the BS. 
-        - Category 3: TBE <= T* and event_indicator=0. This cannot be incorporated into the BS.
+        - The above example is __Category 2: when TBE > t* (and event_indicator is either 0 or 1)__. These can always be incorporated into the BS. 
+        - __Category 1: TBE <= t* and event_indicator=1__. These can always be incorporated into the BS. 
+        - __Category 3: TBE <= T* and event_indicator=0__. This cannot be incorporated into the BS without reweighting.
+        - **Reweighting using the KM curve**: this is done so that we can incorporate information from all three categories above 
       - We can also integrate the BS over all t* values to give a single value - integrated Brier score (IBS). 
   - Interesting methodology: fit a Cox PH model, use it to define sub-groups (based on which variables are significant). Then fit separate KM curves based on those sub-groups (instead of just doing a pooled KM curve) 
   - KM curve vs Cox PH (and other models) are evaluated in terms of BS(t*=5), and IBS (and other metrics).

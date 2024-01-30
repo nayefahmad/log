@@ -146,4 +146,5 @@ preferred, where the rate function is the derivative of the mean function.
 - 64: overview of logistic regression
 - 425, 308: kernel functions as local neighborhoods
 - 426: Brier score without censoring
-- 427: Brier score, with censoring 
+- 427: Brier score, with censoring
+- 428: time-dependent AUC and Brier score 

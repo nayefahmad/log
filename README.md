@@ -147,4 +147,6 @@ preferred, where the rate function is the derivative of the mean function.
 - 425, 308: kernel functions as local neighborhoods
 - 426: Brier score without censoring
 - 427: Brier score, with censoring
-- 428: time-dependent AUC and Brier score 
+- 428: time-dependent AUC and Brier score
+- 429: cross-validation for hyperparameter selection - ESL, p242
+- 430: two uses of cross-validation - ISL, p201 (first page of chapter on resampling methods) 

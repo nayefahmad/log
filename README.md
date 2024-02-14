@@ -149,4 +149,4 @@ preferred, where the rate function is the derivative of the mean function.
 - 427: Brier score, with censoring
 - 428: time-dependent AUC and Brier score
 - 429, 430: cross-validation for prediction error and hyperparameter selection - ESL, p242
-- 431: two uses of cross-validation - ISL, p201 (first page of chapter on resampling methods) 
+- 431: two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods) 

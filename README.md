@@ -152,3 +152,4 @@ preferred, where the rate function is the derivative of the mean function.
 - 431: two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods)
 - 402: cross-entropy loss for multi-class classification
 - 178: random forest training and variable importance 
+- 432: mixture of experts transformers 

@@ -152,4 +152,6 @@ preferred, where the rate function is the derivative of the mean function.
 - 431: two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods)
 - 402: cross-entropy loss for multi-class classification
 - 178: random forest training and variable importance 
-- 432: mixture of experts transformers 
+- 432: mixture of experts transformers
+- 433: nested cross validation: https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_nested.html
+- 434: how machine learning differs from optimization: Goodfellow et. al., p... 

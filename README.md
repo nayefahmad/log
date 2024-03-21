@@ -154,4 +154,4 @@ preferred, where the rate function is the derivative of the mean function.
 - 178: random forest training and variable importance 
 - 432: mixture of experts transformers
 - 433: nested cross validation: https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_nested.html
-- 434: how machine learning differs from optimization: Goodfellow et. al., p... 
+- 434: how machine learning differs from optimization: Goodfellow et. al., p268

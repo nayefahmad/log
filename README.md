@@ -155,3 +155,4 @@ preferred, where the rate function is the derivative of the mean function.
 - 432: mixture of experts transformers (cf. card 406 on main sub-layers in standard transformer) 
 - 433: nested cross validation: https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_nested.html
 - 434: how machine learning differs from optimization: Goodfellow et. al., p268
+- 199 to ~217: notes from book "Euler's Gem" 

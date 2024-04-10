@@ -100,6 +100,12 @@ preferred, where the rate function is the derivative of the mean function.
   - KM curve vs Cox PH (and other models) are evaluated in terms of BS(t*=5), and IBS (and other metrics).
   - Also see https://stats.stackexchange.com/questions/507633/intuition-behind-brier-score-weighing-step-for-censored-data
 
+ - **[Informer model for multivariate time series forecasting](https://huggingface.co/blog/informer)**
+   - Authors: Eli Simhayev et. al.
+   - tag: time_series
+   - Uses the `traffic_hourly` dataset, as part of the Monash Time Series Forecasting repo
+   - Uses GluonTS library
+
 
 
 

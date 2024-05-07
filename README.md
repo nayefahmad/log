@@ -109,7 +109,7 @@ preferred, where the rate function is the derivative of the mean function.
 
 
 
-## Blog posts/Videos
+## Blog posts/Videos/Slides
 - **[Liquidity modeling in real estate using survival analysis](https://www.opendoor.com/articles/liquidity-modeling-real-estate-survival-analysis)**
   - tags: survival_analysis
   - Three framings:
@@ -141,7 +141,13 @@ preferred, where the rate function is the derivative of the mean function.
       - Neural survival-supervised topic models (Li et al, 2020)
   - KKBox dataset is one of the largest ones out there. See https://www.kaggle.com/competitions/kkbox-churn-prediction-challenge/discussion/45926
   - In healthcare, predicting time to death with ~10s of features generally gives c-index scores under 0.80
- 
+
+ - **[Simulation-based optimization]()**
+   - Presenter: Nanjing Jian
+  
+  - **[Probability management - ORMS today](https://www.probabilitymanagement.org/s/Probability_Management_Part1s.pdf)**
+    - Author: Sam Savage et. al.
+    - Use of PowerPoint slides was highlighted as a contributing factor to the Columbia space shuttle disaster. 
 
 
 ## Cards 

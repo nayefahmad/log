@@ -147,7 +147,11 @@ preferred, where the rate function is the derivative of the mean function.
   
   - **[Probability management - ORMS today](https://www.probabilitymanagement.org/s/Probability_Management_Part1s.pdf)**
     - Author: Sam Savage et. al.
-    - Use of PowerPoint slides was highlighted as a contributing factor to the Columbia space shuttle disaster. 
+    - Use of PowerPoint slides was highlighted as a contributing factor to the Columbia space shuttle disaster.
+    - Eight examples where using point estimates give wrong answers:
+      - Drunk on the highway: avg position is in the middle (alive), but actually, on average he is dead, because he doesn't stay in one position in each "iteration" - he moves back and forth
+      - ...
+    - SIP: stochastic information packet 
 
 
 ## Cards 

@@ -170,7 +170,7 @@ preferred, where the rate function is the derivative of the mean function.
 - 178: random forest training and variable importance 
 - 432: mixture of experts transformers (cf. card 406 on main sub-layers in standard transformer). 
 - 433: nested cross validation: https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_nested.html (done) 
-- 434: how machine learning differs from optimization: Goodfellow et. al., p268
+- 434: how machine learning differs from optimization: Goodfellow et. al. book, p268
 - 199 to ~217: notes from book "Euler's Gem" 
 - 435: inference vs prediction: Gerds & Kattan *Medical Risk Prediction Models*, p27
 - 436: in `lifelines`, how do you get a conditional survival curve, and conditional prediction of e.g. median lifetime. See [here](https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html#prediction-on-censored-subjects)

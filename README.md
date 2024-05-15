@@ -177,6 +177,6 @@ preferred, where the rate function is the derivative of the mean function.
 - 437: should a non-significant variable be dropped from a predictive regression model? See [this](https://discourse.datamethods.org/t/model-selection-and-assessment-of-model-fit/321/5)
 - 438: one-hot encoding vs BOW for text - see j29, p89
 - 439: visual representation of K, Q, V matrices in transformers - [Francois Fleuret slides, p5-](https://fleuret.org/public/EN_20220809-Transformers/transformers-slides.pdf)
-
+- 440: determining whether to gather more data: Goodfellow et al book, p414; and 426 ("fit a tiny dataset") 
 
 

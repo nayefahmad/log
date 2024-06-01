@@ -172,7 +172,7 @@ preferred, where the rate function is the derivative of the mean function.
 - 433: nested cross validation: https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_nested.html (done) 
 - 434: how machine learning differs from optimization: Goodfellow et. al. book, p268 (done) 
 - 199 to ~217: notes from book "Euler's Gem" 
-- 435: inference vs prediction: Gerds & Kattan *Medical Risk Prediction Models*, p27
+- 435: inference vs prediction: Gerds & Kattan *Medical Risk Prediction Models*, p27 (done) 
 - 436: in `lifelines`, how do you get a conditional survival curve, and conditional prediction of e.g. median lifetime. See [here](https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html#prediction-on-censored-subjects)
 - 437: should a non-significant variable be dropped from a predictive regression model? See [this discussion by Frank Harrell](https://discourse.datamethods.org/t/model-selection-and-assessment-of-model-fit/321/5)
 - 438: one-hot encoding vs BOW for text - see j29, p89

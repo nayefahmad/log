@@ -179,5 +179,6 @@ preferred, where the rate function is the derivative of the mean function.
 - 439: visual representation of K, Q, V matrices in transformers - [Francois Fleuret slides, p5-](https://fleuret.org/public/EN_20220809-Transformers/transformers-slides.pdf)
 - 440: determining whether to gather more data: Goodfellow et al book, p414; and 426 ("fit a tiny dataset")
 - 441?: How to tell if local minima are a problem in training a NN - Goodfellow et al, p277
+- 442?: variadic keyword args - see this [module]([url](https://github.com/nayefahmad/algorithms-and-design-patterns/blob/main/src/variadic-args-and-kwargs.py))
 
 

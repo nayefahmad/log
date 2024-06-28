@@ -180,5 +180,6 @@ preferred, where the rate function is the derivative of the mean function.
 - 440: determining whether to gather more data: Goodfellow et al book, p414; and 426 ("fit a tiny dataset")
 - 441?: How to tell if local minima are a problem in training a NN - Goodfellow et al, p277
 - 442?: variadic keyword args - see this [module]([url](https://github.com/nayefahmad/algorithms-and-design-patterns/blob/main/src/variadic-args-and-kwargs.py))
+- 443?: prediction intervals - Cox, _Principles of Statistical Inference_, p161-162 + [wiki article]([url](https://en.wikipedia.org/wiki/Prediction_interval)) on prediction intervals
 
 

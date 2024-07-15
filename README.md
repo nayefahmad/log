@@ -151,7 +151,10 @@ preferred, where the rate function is the derivative of the mean function.
     - Eight examples where using point estimates give wrong answers:
       - Drunk on the highway: avg position is in the middle (alive), but actually, on average he is dead, because he doesn't stay in one position in each "iteration" - he moves back and forth
       - ...
-    - SIP: stochastic information packet 
+    - SIP: stochastic information packet
+   
+  - **[Embeddings - Vicki Boykis](https://vickiboykis.com/what_are_embeddings/)**
+    - x 
 
 
 ## Cards 

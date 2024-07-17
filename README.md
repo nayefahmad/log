@@ -154,7 +154,8 @@ preferred, where the rate function is the derivative of the mean function.
     - SIP: stochastic information packet
    
   - **[Embeddings - Vicki Boykis](https://vickiboykis.com/what_are_embeddings/)**
-    - p1-24
+    - p1-24, p24-28
+    - [sklearn doc on comparing encoders](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder.html#sphx-glr-auto-examples-preprocessing-plot-target-encoder-py)
 
 
 ## Cards 

@@ -191,5 +191,7 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: How to tell if local minima are a problem in training a NN - Goodfellow et al, p277
 - xx?: variadic keyword args - see this [module]([url](https://github.com/nayefahmad/algorithms-and-design-patterns/blob/main/src/variadic-args-and-kwargs.py))
 - xx?: prediction intervals - Cox, _Principles of Statistical Inference_, p161-162 + [wiki article]([url](https://en.wikipedia.org/wiki/Prediction_interval)) on prediction intervals
-
+- xx?: What is the "empirical Bayes" approach? - see p3 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
+- xx?: Empirical Bayes approach for "smoothing" averages in a category vs global across categories. See eq 4, 5, 6, 7, 8 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
+- xx?: Encoding hierarchical categories - see p5 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
 

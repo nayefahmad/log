@@ -157,7 +157,7 @@ preferred, where the rate function is the derivative of the mean function.
     - p1-24, p24-28
     - Encoding categorical variables: 
       - [sklearn doc on comparing encoders](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder.html#sphx-glr-auto-examples-preprocessing-plot-target-encoder-py)
-      - [sklearn dock on cross fitting in TargetEncoder](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder_cross_val.html#sphx-glr-auto-examples-preprocessing-plot-target-encoder-cross-val-py)
+      - [sklearn doc on cross fitting in TargetEncoder](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder_cross_val.html#sphx-glr-auto-examples-preprocessing-plot-target-encoder-cross-val-py)
       - [TDS post](https://towardsdatascience.com/dealing-with-categorical-variables-by-using-target-encoder-a0f1733a4c69) explaining smoothing in TargetEncoder
       - [kaggle post](https://www.kaggle.com/code/ryanholbrook/target-encoding)
       - [TargetEncoder example implementation](https://gist.github.com/lmassaron/6695171ff45bae7ef7ddcdad2ad493ca)

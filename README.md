@@ -171,10 +171,10 @@ preferred, where the rate function is the derivative of the mean function.
 - 64: overview of logistic regression
 - 199 to ~217: notes from book "Euler's Gem"
 - 424: nonparametric conditional survival
+- 425, 308: kernel functions as local neighborhoods
 
 
 ## Cards 
-- 425, 308: kernel functions as local neighborhoods
 - 426: Brier score without censoring
 - 427: Brier score, with censoring
 - 428: time-dependent AUC and Brier score

@@ -172,13 +172,13 @@ preferred, where the rate function is the derivative of the mean function.
 - 199 to ~217: notes from book "Euler's Gem"
 - 424: nonparametric conditional survival
 - 425, 308: kernel functions as local neighborhoods
+- 429, 430: cross-validation for prediction error and hyperparameter selection - ESL, p242
 
 
 ## Cards 
 - 426: Brier score without censoring
 - 427: Brier score, with censoring
 - 428: time-dependent AUC and Brier score
-- 429, 430: cross-validation for prediction error and hyperparameter selection - ESL, p242
 - 431: two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods)
 - 402: cross-entropy loss for multi-class classification
 - 178: random forest training and variable importance 

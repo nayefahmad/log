@@ -161,6 +161,11 @@ preferred, where the rate function is the derivative of the mean function.
       - [TDS post](https://towardsdatascience.com/dealing-with-categorical-variables-by-using-target-encoder-a0f1733a4c69) explaining smoothing in TargetEncoder
       - [kaggle post](https://www.kaggle.com/code/ryanholbrook/target-encoding)
       - [TargetEncoder example implementation](https://gist.github.com/lmassaron/6695171ff45bae7ef7ddcdad2ad493ca)
+      - 
+
+  - **[Kaggle M5 competition](https://www.kaggle.com/c/m5-forecasting-accuracy/discussion?sort=hotness)**
+    - https://www.kaggle.com/code/kyakovlev/m5-three-shades-of-dark-darker-magic
+    - https://www.kaggle.com/code/kyakovlev/m5-simple-fe
 
 
 ## Card reviews 

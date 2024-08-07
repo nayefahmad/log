@@ -1,4 +1,4 @@
-# log
+![image](https://github.com/user-attachments/assets/d267d6ec-c826-4467-8646-6bec05ca5b1a)# log
 
 ## Papers 
 - **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**
@@ -166,6 +166,7 @@ preferred, where the rate function is the derivative of the mean function.
   - **[Kaggle M5 competition](https://www.kaggle.com/c/m5-forecasting-accuracy/discussion?sort=hotness)**
     - https://www.kaggle.com/code/kyakovlev/m5-three-shades-of-dark-darker-magic
     - https://www.kaggle.com/code/kyakovlev/m5-simple-fe
+    - [Converting time series problems into supervised learning problems](https://machinelearningmastery.com/xgboost-for-time-series-forecasting/) 
 
 
 ## Card reviews 

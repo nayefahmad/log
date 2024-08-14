@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d267d6ec-c826-4467-8646-6bec05ca5b1a)# log
+# log
 
 ## Papers 
 - **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**
@@ -154,7 +154,7 @@ preferred, where the rate function is the derivative of the mean function.
     - SIP: stochastic information packet
    
   - **[Embeddings - Vicki Boykis](https://vickiboykis.com/what_are_embeddings/)**
-    - p1-24, p24-28
+    - p1-24, p24-28, p28-33
     - Encoding categorical variables: 
       - [sklearn doc on comparing encoders](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder.html#sphx-glr-auto-examples-preprocessing-plot-target-encoder-py)
       - [sklearn doc on cross fitting in TargetEncoder](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_target_encoder_cross_val.html#sphx-glr-auto-examples-preprocessing-plot-target-encoder-cross-val-py)

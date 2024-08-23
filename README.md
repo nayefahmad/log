@@ -166,7 +166,8 @@ preferred, where the rate function is the derivative of the mean function.
   - **[Kaggle M5 competition](https://www.kaggle.com/c/m5-forecasting-accuracy/discussion?sort=hotness)**
     - https://www.kaggle.com/code/kyakovlev/m5-three-shades-of-dark-darker-magic
     - https://www.kaggle.com/code/kyakovlev/m5-simple-fe
-    - [Converting time series problems into supervised learning problems](https://machinelearningmastery.com/xgboost-for-time-series-forecasting/) 
+    - [Converting time series problems into supervised learning problems](https://machinelearningmastery.com/xgboost-for-time-series-forecasting/)
+    - [MOIRAI transformer-based forecasting model](https://aihorizonforecast.substack.com/p/moirai-zero-shot-forecasting-without)
 
 
 ## Card reviews 

@@ -168,7 +168,7 @@ preferred, where the rate function is the derivative of the mean function.
     - https://www.kaggle.com/code/kyakovlev/m5-simple-fe
     - [Converting time series problems into supervised learning problems](https://machinelearningmastery.com/xgboost-for-time-series-forecasting/)
     - [MOIRAI transformer-based forecasting model](https://aihorizonforecast.substack.com/p/moirai-zero-shot-forecasting-without)
-    - [sktime tutorial using transformers](https://nixtlaverse.nixtla.io/)
+    - [sktime tutorial](https://nixtlaverse.nixtla.io/)
     - [nixtla's libraries for forecasting](https://www.sktime.net/en/latest/examples/03_transformers.html)
 
 

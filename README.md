@@ -1,5 +1,9 @@
 # log
 
+## Books 
+- **The practitioner's guide to graph data**
+  - up to "Chapter Preview: Relational Versus Graph"  
+
 ## Papers 
 - **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**
   - Authors: Nunez et al. 

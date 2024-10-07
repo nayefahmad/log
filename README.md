@@ -2,6 +2,7 @@
 
 ## Books 
 - **The practitioner's guide to graph data**
+  - Authors:Gosnell and Broecheler 
   - up to "Chapter Preview: Relational Versus Graph"  
 
 ## Papers 

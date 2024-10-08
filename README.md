@@ -3,7 +3,7 @@
 ## Books 
 - **The practitioner's guide to graph data**
   - Authors:Gosnell and Broecheler 
-  - up to "Chapter Preview: Relational Versus Graph"  
+  - up to "Fig 3-11"  
 
 ## Papers 
 - **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**

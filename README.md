@@ -177,6 +177,9 @@ preferred, where the rate function is the derivative of the mean function.
     - [sktime tutorial](https://www.sktime.net/en/latest/examples/03_transformers.html)
     - [nixtla's libraries for forecasting](https://nixtlaverse.nixtla.io/)
 
+  - **[Jay Alammar - Hands on LLMs](https://youtu.be/RVxl9u7rt9w?si=FuuCdoWJy6W6Atqo)**
+    - Part of Toronto Data Workshop 
+    
 
 ## Card reviews 
 - 409 (review): attention output in matrix form 

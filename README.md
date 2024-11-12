@@ -216,4 +216,5 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: What is the "empirical Bayes" approach? - see p3 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
 - xx?: Empirical Bayes approach for "smoothing" averages in a category vs global across categories. See eq 4, 5, 6, 7, 8 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
 - xx?: Encoding hierarchical categories - see p5 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
+- xx?: Setting up relational tables to capture many-to-one/one-to-many relationships and many-to-many relationships. See J36, p23 
 

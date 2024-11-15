@@ -179,7 +179,11 @@ preferred, where the rate function is the derivative of the mean function.
       - [NBEATS](https://nixtlaverse.nixtla.io/neuralforecast/models.nbeats.html#usage-example), [NHITS](https://nixtlaverse.nixtla.io/neuralforecast/models.nhits.html), [TimeLLM](https://nixtlaverse.nixtla.io/neuralforecast/models.timellm.html)
 
   - **[Jay Alammar - Hands on LLMs](https://youtu.be/RVxl9u7rt9w?si=FuuCdoWJy6W6Atqo)**
-    - Part of Toronto Data Workshop 
+    - Part of Toronto Data Workshop
+    
+
+  - **[PyMC3 Bayesian multilevel modeling](https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/multilevel_modeling.html#conventional-approaches)**
+    - Radon example from Gelman book 
     
 
 ## Card reviews 

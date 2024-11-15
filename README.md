@@ -176,6 +176,7 @@ preferred, where the rate function is the derivative of the mean function.
   - **[MOIRAI transformer-based forecasting model](https://aihorizonforecast.substack.com/p/moirai-zero-shot-forecasting-without)**
     - [sktime tutorial](https://www.sktime.net/en/latest/examples/03_transformers.html)
     - [nixtla's libraries for forecasting](https://nixtlaverse.nixtla.io/)
+      - [NBEATS](https://nixtlaverse.nixtla.io/neuralforecast/models.nbeats.html#usage-example), [NHITS](https://nixtlaverse.nixtla.io/neuralforecast/models.nhits.html), [TimeLLM](https://nixtlaverse.nixtla.io/neuralforecast/models.timellm.html)
 
   - **[Jay Alammar - Hands on LLMs](https://youtu.be/RVxl9u7rt9w?si=FuuCdoWJy6W6Atqo)**
     - Part of Toronto Data Workshop 

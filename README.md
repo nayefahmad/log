@@ -185,8 +185,9 @@ preferred, where the rate function is the derivative of the mean function.
     - Radon example from Gelman book
    
   - **[Context-Aided Forecasting: Enhancing Forecasting with Textual Data](https://aihorizonforecast.substack.com/p/context-aided-forecasting-enhancing?utm_source=substack&publication_id=1940355&post_id=152058185&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=false&r=38w78&triedRedirect=true)**
-    - From AI Horizon Forecast substack
-    - Mentions Continuous Ranked Probability Score (CRPS), a proper scoring rule that provides a comprehensive assessment of forecast quality by evaluating the entire predictive distribution rather than focusing solely on summary statistics. 
+    - From AI Horizon Forecast substack, by Nikos Kafritsas 
+    - Mentions Continuous Ranked Probability Score (CRPS), a proper scoring rule that provides a comprehensive assessment of forecast quality by evaluating the entire predictive distribution rather than focusing solely on summary statistics.
+    - Compares general LLMs (e.g. Llama), time series foundation models (e.g. MOIRAI), and statistical methods (e.g. ARIMA)   
     
 
 ## Card reviews 

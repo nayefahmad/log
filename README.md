@@ -185,10 +185,17 @@ preferred, where the rate function is the derivative of the mean function.
     - Radon example from Gelman book
    
   - **[Context-Aided Forecasting: Enhancing Forecasting with Textual Data](https://aihorizonforecast.substack.com/p/context-aided-forecasting-enhancing?utm_source=substack&publication_id=1940355&post_id=152058185&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=false&r=38w78&triedRedirect=true)**
-    - From AI Horizon Forecast substack, by Nikos Kafritsas 
+    - From AI Horizon Forecast substack, by Nikos Kafritsas
+    - github: https://github.com/ServiceNow/context-is-key-forecasting 
     - Mentions Continuous Ranked Probability Score (CRPS), a proper scoring rule that provides a comprehensive assessment of forecast quality by evaluating the entire predictive distribution rather than focusing solely on summary statistics.
     - Compares general LLMs (e.g. Llama), time series foundation models (e.g. MOIRAI), and statistical methods (e.g. ARIMA)
     - From the paper: "We manually curate and release 71 forecasting tasks (Sec. 3) spanning 7 domains, which cover various kinds of contextual information (Sec. 3.2), and in addition to basic natural languageprocessing and time-series analysis, require various capabilities (e.g. retrieval, reasoning, etc.)"
+    - When using LLMs we need to take steps to avoid a situation where the model has seen the time series in its training data. One way to do this is to take very recent data.
+    - Model types: 
+      - LLMs used include: GPT-4o, Llama-3.1-405b and other Llamas, and Mixtral-8x7B
+      - Multimodal forecasting models used: UniTime and Time-LLM
+      - Time series foundation models: lag-llama, chronos, timeGEN, MOIRAI
+      - Statistical models: ARIMA, ETS, exponential smoothing 
     
 
 ## Card reviews 

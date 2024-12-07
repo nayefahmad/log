@@ -208,7 +208,10 @@ preferred, where the rate function is the derivative of the mean function.
 - 424: nonparametric conditional survival
 - 425, 308: kernel functions as local neighborhoods
 - 429, 430: cross-validation for prediction error and hyperparameter selection - ESL, p242
-- 439, 409: attention mechanism and dimensions of matrices 
+- 439, 409: attention mechanism and dimensions of matrices
+- 255: deviance and AIC
+- 191: motivation for MCM algorithms
+- 385: basics of EM algorithm 
 
 
 ## Cards 

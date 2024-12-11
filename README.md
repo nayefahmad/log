@@ -110,6 +110,12 @@ preferred, where the rate function is the derivative of the mean function.
    - tag: time_series
    - Uses the `traffic_hourly` dataset, as part of the Monash Time Series Forecasting repo
    - Uses GluonTS library
+  
+ - **[Maximum likelihood estimation of the weibull distribution with reduced bias](https://arxiv.org/pdf/2209.14567)**
+   - Authors: Makalic and Schmidt
+   - tag: mle, weibull
+   - Also see:
+     - R. Ross. Formulas to describe the bias and standard deviation of the ML-estimated Weibull shape parameter. IEEE Transactions on Dielectrics and Electrical Insulation. doi:10.1109/94.300257.
 
 
 

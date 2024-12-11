@@ -182,7 +182,7 @@ preferred, where the rate function is the derivative of the mean function.
     - Part of Toronto Data Workshop
 
   - **[PyMC3 Bayesian multilevel modeling](https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/multilevel_modeling.html#conventional-approaches)**
-    - Radon example from Gelman book
+    - Radon example from Gelman's book
    
   - **[Context-Aided Forecasting: Enhancing Forecasting with Textual Data](https://aihorizonforecast.substack.com/p/context-aided-forecasting-enhancing?utm_source=substack&publication_id=1940355&post_id=152058185&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=false&r=38w78&triedRedirect=true)**
     - From AI Horizon Forecast substack, by Nikos Kafritsas

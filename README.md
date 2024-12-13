@@ -107,16 +107,25 @@ preferred, where the rate function is the derivative of the mean function.
 
  - **[Informer model for multivariate time series forecasting](https://huggingface.co/blog/informer)**
    - Authors: Eli Simhayev et. al.
-   - tag: time_series
+   - tag:time_series
    - Uses the `traffic_hourly` dataset, as part of the Monash Time Series Forecasting repo
    - Uses GluonTS library
   
  - **[Maximum likelihood estimation of the weibull distribution with reduced bias](https://arxiv.org/pdf/2209.14567)**
    - Authors: Makalic and Schmidt
-   - tag: mle, weibull
+   - tag:mle, weibull
    - Also see:
      - R. Ross. Formulas to describe the bias and standard deviation of the ML-estimated Weibull shape parameter. IEEE Transactions on Dielectrics and Electrical Insulation. doi:10.1109/94.300257.
 
+- **[Failure rate analysis and mx plan optimization for aircraft](https://www.sciencedirect.com/science/article/pii/S100093612400356X?fr=RR-2&ref=pdf_download&rr=8f177cd9cea42f39)**
+  - Authors: Cao et al
+  - tag:reliability
+  - x
+
+ - **Mx interval determination and optimization tool (Boeing Technical Journal, 2012)**
+   - Author: Shuguang Song
+   - tag:reliability
+   - x
 
 
 

@@ -125,7 +125,7 @@ preferred, where the rate function is the derivative of the mean function.
  - **Mx interval determination and optimization tool (Boeing Technical Journal, 2012)**
    - Author: Shuguang Song
    - tag:reliability
-   - x
+   - Uses data availability file to find right-censored current TOW intervals 
 
 
 

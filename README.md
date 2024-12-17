@@ -229,6 +229,7 @@ preferred, where the rate function is the derivative of the mean function.
 - 385: basics of EM algorithm
 - 439: attention mechanism and dimensions of matrices
 - 98: point estimators, unbiasedness, sampling distributions
+- 55: probability as a special case of expectation 
 
 
 ## Cards 

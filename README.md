@@ -227,7 +227,8 @@ preferred, where the rate function is the derivative of the mean function.
 - 255: deviance and AIC
 - 191: motivation for MCM algorithms
 - 385: basics of EM algorithm
-- 439: attention mechanism and dimensions of matrices 
+- 439: attention mechanism and dimensions of matrices
+- 98: point estimators, unbiasedness, sampling distributions
 
 
 ## Cards 

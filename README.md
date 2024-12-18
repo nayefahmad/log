@@ -233,10 +233,10 @@ preferred, where the rate function is the derivative of the mean function.
 
 
 ## Cards 
-- 426: Brier score without censoring
-- 427: Brier score, with censoring
-- 428: time-dependent AUC and Brier score
-- 431: two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods)
+- 426: ~~Brier score without censoring~~
+- 427: ~~Brier score, with censoring~~
+- 428: ~~time-dependent AUC and Brier score~~
+- 431: ~~two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods)~~ 
 - 402: cross-entropy loss for multi-class classification
 - 178: random forest training and variable importance 
 - 432: mixture of experts transformers (cf. card 406 on main sub-layers in standard transformer). 

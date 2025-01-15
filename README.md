@@ -210,7 +210,27 @@ preferred, where the rate function is the derivative of the mean function.
       - LLMs used include: GPT-4o, Llama-3.1-405b and other Llamas, and Mixtral-8x7B
       - Multimodal forecasting models used: UniTime and Time-LLM
       - Time series foundation models: lag-llama, chronos, timeGEN, MOIRAI
-      - Statistical models: ARIMA, ETS, exponential smoothing 
+      - Statistical models: ARIMA, ETS, exponential smoothing
+      - 
+
+  - **[VulnWatch: AI-Enhanced Prioritization of Vulnerabilities](https://www.databricks.com/blog/vulnwatch-ai-enhanced-prioritization-vulnerabilities)**
+    - From databricks blog 
+    - Our engineering team has designed an AI-based system that can proactively detect, classify, and prioritize vulnerabilities as soon as they are disclosed, based on their severity, potential impact, and relevance to Databricks infrastructure. Our system achieves an accuracy rate of approximately 85% in identifying business-critical vulnerabilities. By leveraging our prioritization algorithm, the security team has significantly reduced their manual workload by over 95%. They are now able to focus their attention on the 5% of vulnerabilities that require immediate action, rather than sifting through hundreds of issues.
+    - Steps:
+      - Extract data from APIs
+      - Extract data like description, CVSS score, EPSS score, etc. 
+      - Create three main features: severity score, component score, topic score
+        - Severity score: This score's high value corresponds to CVEs deemed critical to the community and our organization. It's a simple weighted average
+        - Component score: Quantitatively measures how important the CVE is to our organization. To do this, they have to take a CVE, extract what library it's related to, and then match against a list of all libraries used in databricks. 
+          - Step 1: Converting each word in the library name into an embedding for comparison.
+          - Step 2: Vector similarity search to find a list of databricks libraries that might be vulnerable
+          - Step 3: Prompt a fine-tuned LLM to classify which libraries within that list are actually vulnerable.
+            - We fine-tuned various models using a ground truth dataset to improve accuracy in identifying vulnerable dependent packages. A ground truth dataset comprising 300 manually labeled examples was utilized for fine-tuning purposes. The tested LLMs included gpt-4o, gpt-3.5-Turbo, llama3-70B, and llama-3.1-405b-instruct.
+            - The prompt was automatically optimized in an iterative process. See [this notebook](https://colab.research.google.com/drive/1Bn11v5X85PEgWnn3Rz_4GJRIUh3S0aEB?usp=sharing%23scrollTo%3DaAgLfkPqNB7G#scrollTo=aAgLfkPqNB7G)
+            - 300 labelled examples used in fine-tuning gpt-3.5-turbo, but this was still slightly worse than gpt-4o. 
+            - Also see [Databricks API for fine-tuning](https://docs.databricks.com/en/large-language-models/foundation-model-training/create-fine-tune-run.html)
+          - Step 4: Once the Databricks libraries in a CVE are identified, the corresponding score of the library (library_score as described above) is assigned as the component score of the CVE
+        - Topic score: 
     
 
 ## Card reviews 

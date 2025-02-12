@@ -251,7 +251,8 @@ preferred, where the rate function is the derivative of the mean function.
 - 98: point estimators, unbiasedness, sampling distributions
 - 55: probability as a special case of expectation
 - 227, 242, 261: expected value, expected utility and prospect theory
-- 263, 269: instrumental variables and simple regression for ATE 
+- 263, 269: instrumental variables and simple regression for ATE
+- 153, 153A: multilevel models for modeling both individual- and group-level variation 
 
 
 ## Cards 

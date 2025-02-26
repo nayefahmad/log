@@ -1,5 +1,9 @@
 # log
 
+## Courses 
+- **Coursera/deeplearning.ai - Data engineering**
+   - x
+
 ## Books 
 - **The practitioner's guide to graph data**
   - Authors:Gosnell and Broecheler 
@@ -252,7 +256,8 @@ preferred, where the rate function is the derivative of the mean function.
 - 55: probability as a special case of expectation
 - 227, 242, 261: expected value, expected utility and prospect theory
 - 263, 269: instrumental variables and simple regression for ATE
-- 153, 153A: multilevel models for modeling both individual- and group-level variation 
+- 153, 153A: multilevel models for modeling both individual- and group-level variation
+- 194: no-pooling vs full-pooling models (compared to soft constraint of partial pooling) 
 
 
 ## Cards 

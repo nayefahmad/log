@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 1: up to "Intro to the AWS cloud" 
+   - Week 2: up to "Data generation in source systems" 
 
 ## Books 
 - **The practitioner's guide to graph data**

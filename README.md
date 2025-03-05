@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 2: up to "Data generation in source systems" 
+   - Week 2: up to "Storage" 
 
 ## Books 
 - **The practitioner's guide to graph data**

@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 2: up to "Storage" 
+   - Week 2: up to "DataOps" 
 
 ## Books 
 - **The practitioner's guide to graph data**

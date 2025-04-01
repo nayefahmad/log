@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 2: up to "lab intro" 
+   - Week 3: up to "Batch architectures" 
 
 ## Books 
 - **The practitioner's guide to graph data**

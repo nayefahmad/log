@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 3: up to "Batch architectures" 
+   - Week 3: up to "Monolithic vs modular systems" 
 
 ## Books 
 - **The practitioner's guide to graph data**

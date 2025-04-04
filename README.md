@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 3: up to "Build vs buy" 
+   - Week 3: up to "Build vs buy" video  
 
 ## Books 
 - **The practitioner's guide to graph data**

@@ -257,7 +257,8 @@ preferred, where the rate function is the derivative of the mean function.
 - 227, 242, 261: expected value, expected utility and prospect theory
 - 263, 269: instrumental variables and simple regression for ATE
 - 153, 153A: multilevel models for modeling both individual- and group-level variation - SAT scores of children in schools example 
-- 194: no-pooling vs full-pooling models (compared to soft constraint of partial pooling) 
+- 194: no-pooling vs full-pooling models (compared to soft constraint of partial pooling)
+- 288: ARMA(0, 1, 0) same as random walk 
 
 
 ## Cards 

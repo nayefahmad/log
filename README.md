@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 3: up to "The AWS well-architected framework" video
+   - Week 3: up to "Lab intro" video
 
 ## Books 
 - **The practitioner's guide to graph data**

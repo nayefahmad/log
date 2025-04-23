@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 3: up to "Lab intro" video
+   - Week 3: up to "Lab walkthrough 2" video
 
 ## Books 
 - **The practitioner's guide to graph data**

@@ -261,7 +261,8 @@ preferred, where the rate function is the derivative of the mean function.
 - 288: ARMA(0, 1, 0) same as random walk
 - 272: overview of causal inf methods
 - 264: effect of covariate imbalance on ATE_hat
-- 356: BBG drug and subclassification for confounding variables (_not_ for mediating variables) 
+- 356: BBG drug and subclassification for confounding variables (_not_ for mediating variables)
+- 438: OHE vs BOW encoding  
 
 
 ## Cards 

@@ -134,7 +134,9 @@ preferred, where the rate function is the derivative of the mean function.
 
   - **[Forecast Evaluation for Data Scientists: Common Pitfalls and Best Practices](https://arxiv.org/pdf/2203.10716)**
      - Authors: Hewamalage et. al.
-     - 
+   
+  - **[Global models for time series forecasting](https://arxiv.org/pdf/2012.12485)**
+     - Authors: Hewamalage et. al. 
 
 
 

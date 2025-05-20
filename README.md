@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 3: up to "Programming assignment 2"
+   - Week 4 start 
 
 ## Books 
 - **The practitioner's guide to graph data**

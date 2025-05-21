@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 4 start 
+   - Week 4 - up to "Conversation with CTO" 
 
 ## Books 
 - **The practitioner's guide to graph data**

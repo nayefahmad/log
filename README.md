@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 4 - up to "Conversation with SWE" 
+   - Week 4 - up to "Requirements gathering summary" 
 
 ## Books 
 - **The practitioner's guide to graph data**

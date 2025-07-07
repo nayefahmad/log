@@ -241,7 +241,9 @@ preferred, where the rate function is the derivative of the mean function.
             - 300 labelled examples used in fine-tuning gpt-3.5-turbo, but this was still slightly worse than gpt-4o. 
             - Also see [Databricks API for fine-tuning](https://docs.databricks.com/en/large-language-models/foundation-model-training/create-fine-tune-run.html)
           - Step 4: Once the Databricks libraries in a CVE are identified, the corresponding score of the library (library_score as described above) is assigned as the component score of the CVE
-        - Topic score: 
+        - Topic score:
+       
+  - **[Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)** 
     
 
 ## Card reviews 

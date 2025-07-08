@@ -243,7 +243,8 @@ preferred, where the rate function is the derivative of the mean function.
           - Step 4: Once the Databricks libraries in a CVE are identified, the corresponding score of the library (library_score as described above) is assigned as the component score of the CVE
         - Topic score:
        
-  - **[Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)** 
+  - **[Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)**
+    - up to 24:54 
     
 
 ## Card reviews 

@@ -244,7 +244,9 @@ preferred, where the rate function is the derivative of the mean function.
         - Topic score:
        
   - **[Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)**
-    - up to 24:54 
+
+  - **[Andrew Ng: State of AI agents](https://www.youtube.com/watch?v=4pYzYmSdSH4)**
+
     
 
 ## Card reviews 

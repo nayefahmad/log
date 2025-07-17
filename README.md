@@ -2,7 +2,7 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 4 - up to "AWS Services for Streaming Pipelines" 
+   - Week 4 - up to lab assignment 
 
 ## Books 
 - **The practitioner's guide to graph data**

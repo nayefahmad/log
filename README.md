@@ -2,7 +2,10 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 4 - up to lab assignment 
+   - Week 4 - up to lab assignment
+ 
+- **MCP course"
+  - Up to Video 2? 
 
 ## Books 
 - **The practitioner's guide to graph data**

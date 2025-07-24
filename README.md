@@ -2,7 +2,10 @@
 
 ## Courses 
 - **Coursera/deeplearning.ai - Data engineering**
-   - Week 4 - up to lab assignment
+   - Started Course 2!
+ 
+- **Anthropic - MCP course**
+   - L4 
  
 - **MCP course"
   - Up to Video 2? 

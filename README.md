@@ -5,7 +5,7 @@
    - Started Course 2!
  
 - **Anthropic - MCP course**
-   - L4 
+   - L4, read through .ipynb 
  
 - **MCP course"
   - Up to Video 2? 

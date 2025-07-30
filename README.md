@@ -5,7 +5,7 @@
    - Started Course 2!
  
 - **Anthropic - MCP course**
-   - L5
+   - L5, code overview 
  
 - **MCP course"
   - Up to Video 2? 

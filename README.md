@@ -298,6 +298,7 @@ preferred, where the rate function is the derivative of the mean function.
 - 437: should a non-significant variable be dropped from a _predictive_ regression model? See [this discussion by Frank Harrell](https://discourse.datamethods.org/t/model-selection-and-assessment-of-model-fit/321/5)
 - 438: ~~one-hot encoding vs BOW for text - see j29, p89~~
 - 439: ~~visual representation of K, Q, V matrices in transformers - [Francois Fleuret slides, p5-](https://fleuret.org/public/EN_20220809-Transformers/transformers-slides.pdf) + S.Prince, _Understanding Deep Learning_, p212 & 215~~
+- 442: two equivalent ways of writing ridge regression objective function 
 - xx: determining whether to gather more data: Goodfellow et al book, p414; and 426 ("fit a tiny dataset")
 - xx?: How to tell if local minima are a problem in training a NN - Goodfellow et al, p277
 - xx?: variadic keyword args - see this [module]([url](https://github.com/nayefahmad/algorithms-and-design-patterns/blob/main/src/variadic-args-and-kwargs.py))

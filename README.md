@@ -254,6 +254,9 @@ preferred, where the rate function is the derivative of the mean function.
   - **[Andrew Ng: State of AI agents](https://www.youtube.com/watch?v=4pYzYmSdSH4)**
 
   - **[Knowledge Graphs + Semantic Search: Unlocking Smarter LLMs](https://www.youtube.com/watch?v=9_UWqdUnsTc)**
+  
+  - **[Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)](https://www.youtube.com/watch?v=OpVkWc3YnFc)**
+  
 
     
 

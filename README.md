@@ -256,6 +256,9 @@ preferred, where the rate function is the derivative of the mean function.
   - **[Knowledge Graphs + Semantic Search: Unlocking Smarter LLMs](https://www.youtube.com/watch?v=9_UWqdUnsTc)**
   
   - **[Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)](https://www.youtube.com/watch?v=OpVkWc3YnFc)**
+
+  - **[GraphRAG: Unlocking LLM discovery on narrative private data](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)**
+     - This is the MS paper that introduced GraphRAG 
   
 
     

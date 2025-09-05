@@ -250,15 +250,20 @@ preferred, where the rate function is the derivative of the mean function.
         - Topic score:
        
   - **[Andrej Karpathy: Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ)**
+     - Think of LLMs as the operating system, and consider how to create apps for this OS. 
 
   - **[Andrew Ng: State of AI agents](https://www.youtube.com/watch?v=4pYzYmSdSH4)**
 
   - **[Knowledge Graphs + Semantic Search: Unlocking Smarter LLMs](https://www.youtube.com/watch?v=9_UWqdUnsTc)**
+     - Presented by Alessandro Pireno from SurrealDB. Nice intro to GraphRAG, complemented by the MS paper "GraphRAG: Unlocking LLM discovery on narrative private data"
   
   - **[Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)](https://www.youtube.com/watch?v=OpVkWc3YnFc)**
 
   - **[GraphRAG: Unlocking LLM discovery on narrative private data](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)**
-     - This is the MS paper that introduced GraphRAG 
+     - This is the MS paper that introduced GraphRAG
+     - Use an LLM to generate the graph with entities and relationships. When a question is posed, the graphRAG system uses both vector search and graph retrieval to provide context that is inserted into a prompt for the answering LLM.
+     - The structure of the graph helps improve higher-level reasoning about the private dataset - e.g. "what are the top 5 themes in the data?"
+        - This is facilitated by "bottom-up clustering" done on the LLM-generated graph, which lets the answering LLM reason at different levels of hierarchy. 
   
 
     

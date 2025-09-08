@@ -263,7 +263,9 @@ preferred, where the rate function is the derivative of the mean function.
      - This is the MS paper that introduced GraphRAG
      - Use an LLM to generate the graph with entities and relationships. When a question is posed, the graphRAG system uses both vector search and graph retrieval to provide context that is inserted into a prompt for the answering LLM.
      - The structure of the graph helps improve higher-level reasoning about the private dataset - e.g. "what are the top 5 themes in the data?"
-        - This is facilitated by "bottom-up clustering" done on the LLM-generated graph, which lets the answering LLM reason at different levels of hierarchy. 
+        - This is facilitated by "bottom-up clustering" done on the LLM-generated graph, which lets the answering LLM reason at different levels of hierarchy.
+      
+  - **[GraphGeeks -A visual cheat sheet for Graphs + LLMs](https://www.youtube.com/watch?v=UdF-ODQFwLk)**
   
 
     

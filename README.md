@@ -267,7 +267,7 @@ preferred, where the rate function is the derivative of the mean function.
       
   - **[GraphGeeks -A visual cheat sheet for Graphs + LLMs](https://www.youtube.com/watch?v=UdF-ODQFwLk)**
      - Speaker: Veronique Gendner
-     - p13, 14, 15, and at 22:31 in the video are nice visuals of RAG and graphRAG 
+     - p13, 14, 15, and at 22:31, 28:49 in the video are nice visuals of RAG and graphRAG 
   
 
     

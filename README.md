@@ -255,7 +255,7 @@ preferred, where the rate function is the derivative of the mean function.
   - **[Andrew Ng: State of AI agents](https://www.youtube.com/watch?v=4pYzYmSdSH4)**
 
   - **[Knowledge Graphs + Semantic Search: Unlocking Smarter LLMs](https://www.youtube.com/watch?v=9_UWqdUnsTc)**
-     - Presented by Alessandro Pireno from SurrealDB. Nice intro to GraphRAG, complemented by the MS paper "GraphRAG: Unlocking LLM discovery on narrative private data"
+     - Presented by Alessandro Pireno from SurrealDB. Nice intro to GraphRAG, complemented by the Microsoft paper "GraphRAG: Unlocking LLM discovery on narrative private data"
   
   - **[Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)](https://www.youtube.com/watch?v=OpVkWc3YnFc)**
 
@@ -267,7 +267,9 @@ preferred, where the rate function is the derivative of the mean function.
       
   - **[GraphGeeks -A visual cheat sheet for Graphs + LLMs](https://www.youtube.com/watch?v=UdF-ODQFwLk)**
      - Speaker: Veronique Gendner
-     - p13, 14, 15, and at 22:31, 28:49 in the video are nice visuals of RAG and graphRAG 
+     - p13, 14, 15, and at 22:31, 28:49 in the video are nice visuals of RAG and graphRAG
+   
+  - **[A Gen AI-Powered Song Finder in Four Lines of Code](https://medium.com/neo4j/a-gen-ai-powered-song-finder-in-four-lines-of-code-11e13783efe1)**
   
 
     

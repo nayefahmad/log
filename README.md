@@ -267,7 +267,8 @@ preferred, where the rate function is the derivative of the mean function.
       
   - **[GraphGeeks -A visual cheat sheet for Graphs + LLMs](https://www.youtube.com/watch?v=UdF-ODQFwLk)**
      - Speaker: Veronique Gendner
-     - p13, 14, 15, and at 22:31, 28:49 in the video are nice visuals of RAG and graphRAG
+     - p13, 14, 15, and at 22:31, 28:49, 30:54 in the video are nice visuals of RAG and graphRAG
+     - neo4j LLM knowledge graph builder: https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/
    
   - **[A Gen AI-Powered Song Finder in Four Lines of Code](https://medium.com/neo4j/a-gen-ai-powered-song-finder-in-four-lines-of-code-11e13783efe1)**
      - Basically using OpanAI embeddings and vector search function in in neo4j. The graph is mainly used for pulling simple related information from the result nodes. 

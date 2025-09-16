@@ -142,7 +142,14 @@ preferred, where the rate function is the derivative of the mean function.
      - Authors: Hewamalage et. al.
    
   - **[Global models for time series forecasting](https://arxiv.org/pdf/2012.12485)**
-     - Authors: Hewamalage et. al. 
+     - Authors: Hewamalage et. al.
+     
+   - **Optimizing instructions and demonstrations for multi-stage language model programs**
+      - Authors: Krista Opsahl-Ong et. al.
+      - Proposes MIPRO prompt optimization used in DSPy library 
+ 
+
+     
 
 
 

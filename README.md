@@ -278,7 +278,10 @@ preferred, where the rate function is the derivative of the mean function.
      - neo4j LLM knowledge graph builder: https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/
    
   - **[A Gen AI-Powered Song Finder in Four Lines of Code](https://medium.com/neo4j/a-gen-ai-powered-song-finder-in-four-lines-of-code-11e13783efe1)**
-     - Basically using OpanAI embeddings and vector search function in in neo4j. The graph is mainly used for pulling simple related information from the result nodes. 
+     - Basically using OpanAI embeddings and vector search function in in neo4j. The graph is mainly used for pulling simple related information from the result nodes.
+   
+   - **[GraphGeeks Talk: Knowledge Graphs for AI Agents](https://www.youtube.com/watch?v=WQ1xTTdPlQg&t=1306s)**
+      - Hypermode demo 
 
 
     

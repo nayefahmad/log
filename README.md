@@ -281,7 +281,8 @@ preferred, where the rate function is the derivative of the mean function.
      - Basically using OpanAI embeddings and vector search function in in neo4j. The graph is mainly used for pulling simple related information from the result nodes.
    
    - **[GraphGeeks Talk: Knowledge Graphs for AI Agents](https://www.youtube.com/watch?v=WQ1xTTdPlQg&t=1306s)**
-      - Hypermode demo 
+      - Hypermode demo of creating agents
+         - What is an agent? Really like Simon W's article [here](https://simonwillison.net/2025/Sep/18/agents/). Compare with [Chip H's much longer article](https://simonwillison.net/2025/Sep/18/agents/). 
 
 
     

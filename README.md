@@ -330,7 +330,9 @@ preferred, where the rate function is the derivative of the mean function.
 - 437: should a non-significant variable be dropped from a _predictive_ regression model? See [this discussion by Frank Harrell](https://discourse.datamethods.org/t/model-selection-and-assessment-of-model-fit/321/5)
 - 438: ~~one-hot encoding vs BOW for text - see j29, p89~~
 - 439: ~~visual representation of K, Q, V matrices in transformers - [Francois Fleuret slides, p5-](https://fleuret.org/public/EN_20220809-Transformers/transformers-slides.pdf) + S.Prince, _Understanding Deep Learning_, p212 & 215~~
-- 442: two equivalent ways of writing ridge regression objective function 
+- 442: two equivalent ways of writing ridge regression objective function
+- 443: diagrams for ridge/lasso
+- 444: how SHAP helps with explainability of a model 
 - xx: determining whether to gather more data: Goodfellow et al book, p414; and 426 ("fit a tiny dataset")
 - xx?: How to tell if local minima are a problem in training a NN - Goodfellow et al, p277
 - xx?: variadic keyword args - see this [module]([url](https://github.com/nayefahmad/algorithms-and-design-patterns/blob/main/src/variadic-args-and-kwargs.py))
@@ -338,5 +340,5 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: What is the "empirical Bayes" approach? - see p3 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
 - xx?: Empirical Bayes approach for "smoothing" averages in a category vs global across categories. See eq 4, 5, 6, 7, 8 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
 - xx?: Encoding hierarchical categories - see p5 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
-- xx?: Setting up relational tables to capture many-to-one/one-to-many relationships and many-to-many relationships. See J36, p23 
+- xx?: Setting up relational tables to capture many-to-one/one-to-many relationships and many-to-many relationships. See J36, p23
 

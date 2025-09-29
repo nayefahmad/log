@@ -282,7 +282,10 @@ preferred, where the rate function is the derivative of the mean function.
    
    - **[GraphGeeks Talk: Knowledge Graphs for AI Agents](https://www.youtube.com/watch?v=WQ1xTTdPlQg&t=1306s)**
       - Hypermode demo of creating agents
-         - What is an agent? Really like Simon W's article [here](https://simonwillison.net/2025/Sep/18/agents/). Compare with [Chip H's much longer article](https://simonwillison.net/2025/Sep/18/agents/). 
+         - What is an agent? Really like Simon W's article [here](https://simonwillison.net/2025/Sep/18/agents/). Compare with [Chip H's much longer article](https://simonwillison.net/2025/Sep/18/agents/).
+       
+   - **[When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge](https://www.youtube.com/watch?v=XlAIgmi_Vow)**
+      - x
 
 
     

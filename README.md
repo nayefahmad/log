@@ -263,8 +263,6 @@ preferred, where the rate function is the derivative of the mean function.
 
   - **[Knowledge Graphs + Semantic Search: Unlocking Smarter LLMs](https://www.youtube.com/watch?v=9_UWqdUnsTc)**
      - Presented by Alessandro Pireno from SurrealDB. Nice intro to GraphRAG, complemented by the Microsoft paper "GraphRAG: Unlocking LLM discovery on narrative private data"
-  
-  - **[Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)](https://www.youtube.com/watch?v=OpVkWc3YnFc)**
 
   - **[GraphRAG: Unlocking LLM discovery on narrative private data](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)**
      - This is the MS paper that introduced GraphRAG
@@ -282,10 +280,15 @@ preferred, where the rate function is the derivative of the mean function.
    
    - **[GraphGeeks Talk: Knowledge Graphs for AI Agents](https://www.youtube.com/watch?v=WQ1xTTdPlQg&t=1306s)**
       - Hypermode demo of creating agents
-         - What is an agent? Really like Simon W's article [here](https://simonwillison.net/2025/Sep/18/agents/). Compare with [Chip H's much longer article](https://simonwillison.net/2025/Sep/18/agents/).
+         - What is an agent? Really like Simon W's article [here](https://simonwillison.net/2025/Sep/18/agents/). Compare with [Chip H's much longer article](https://simonwillison.net/2025/Sep/18/agents/), and with Anthropic's breakdown between ["workflows" and "agents"](https://www.anthropic.com/engineering/building-effective-agents).
        
    - **[When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge](https://www.youtube.com/watch?v=XlAIgmi_Vow)**
-      - x
+      - Two examples of issues with vector-based retrieval:
+         - Chunking and approx nearest neighbours (ANN)/KNN can cause splits in sentences such that the correct answer is left out of the retrieved chunks. Difficult to capture things _across_ chunks. 
+         - When a large number of chunks are concentrated in vector space, it's hard to only pull the ones that actually give the right answer
+       
+   - **[Knowledge Graph or Vector Database... Which is better?](https://www.youtube.com/watch?v=6vG_amAshTk)**
+      - MS's graphrag docs: https://microsoft.github.io/graphrag/ 
 
 
     

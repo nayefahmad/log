@@ -288,7 +288,10 @@ preferred, where the rate function is the derivative of the mean function.
          - When a large number of chunks are concentrated in vector space, it's hard to only pull the ones that actually give the right answer
        
    - **[Knowledge Graph or Vector Database... Which is better?](https://www.youtube.com/watch?v=6vG_amAshTk)**
-      - MS's graphrag docs: https://microsoft.github.io/graphrag/ 
+      - MS's graphrag docs: https://microsoft.github.io/graphrag/
+      - [Leiden algorithm](https://en.wikipedia.org/wiki/Leiden_algorithm) (recent improvement over Louvain algorithm) can be used to detect communities/clusters of notes
+      - [The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs](https://arxiv.org/abs/2408.13296)
+      - [node2vec algorithm](https://arxiv.org/pdf/1607.00653) for node embeddings based on network (not based on the text)
 
 
     

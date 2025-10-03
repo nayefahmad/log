@@ -7,8 +7,9 @@
 - **Anthropic - MCP course**
    - L5, code overview + video 
  
-- **MCP course"
-  - Up to Video 2? 
+- **deeplearning.ai LangChain course**
+   - L1 
+
 
 ## Books 
 - **The practitioner's guide to graph data**

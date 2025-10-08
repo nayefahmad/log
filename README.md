@@ -8,7 +8,7 @@
    - L5, code overview + video 
  
 - **deeplearning.ai LangChain course**
-   - L1 finished 
+   - L3 started 
 
 
 ## Books 

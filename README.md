@@ -5,7 +5,8 @@
    - Started Course 2!
  
 - **Anthropic - MCP course**
-   - L5, code overview + video 
+   - L5, code overview + video
+   - Review MCP architecture 
  
 - **deeplearning.ai LangChain course**
    - L4 finished  

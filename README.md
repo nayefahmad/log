@@ -322,7 +322,8 @@ preferred, where the rate function is the derivative of the mean function.
 - 272: overview of causal inf methods
 - 264: effect of covariate imbalance on ATE_hat
 - 356: BBG drug and subclassification for confounding variables (_not_ for mediating variables)
-- 438: OHE vs BOW encoding  
+- 438: OHE vs BOW encoding
+- 442, 443: ridge and lasso - constraint vs penalty formulation 
 
 
 ## Cards 

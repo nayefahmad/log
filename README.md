@@ -8,7 +8,10 @@
    - Started L6
  
 - **deeplearning.ai LangChain course**
-   - L4 finished  
+   - L4 finished
+ 
+- **kaggle 5-day AI agents course**
+   - Started Day 1 
 
 
 ## Books 

@@ -356,4 +356,6 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: Encoding hierarchical categories - see p5 of Micci & Barreca, _A preprocessing scheme for high-cardinality categorical attributes_
 - xx?: Setting up relational tables to capture many-to-one/one-to-many relationships and many-to-many relationships. See J36, p23
 - xx?: Maxwell's equations: https://www.youtube.com/watch?v=hJD8ywGrXks
+- xx?: CRPS as a generalization of MAE for evaluating probabilistic forecasts: https://skforecast.org/0.18.0/faq/probabilistic-forecasting-crps-score.html
+
 

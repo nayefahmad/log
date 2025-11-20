@@ -357,5 +357,6 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: Setting up relational tables to capture many-to-one/one-to-many relationships and many-to-many relationships. See J36, p23
 - xx?: Maxwell's equations: https://www.youtube.com/watch?v=hJD8ywGrXks
 - xx?: CRPS as a generalization of MAE for evaluating probabilistic forecasts: https://skforecast.org/0.18.0/faq/probabilistic-forecasting-crps-score.html
+- xx?: High-level overview of reinforcement learning (RL) methods - J40, p149 
 
 

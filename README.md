@@ -328,23 +328,12 @@ preferred, where the rate function is the derivative of the mean function.
 
 
 ## Cards 
-- 426: ~~Brier score without censoring~~
-- 427: ~~Brier score, with censoring~~
-- 428: ~~time-dependent AUC and Brier score~~
-- 431: ~~two uses of cross-validation - ISL, p175 (first page of chapter on resampling methods)~~ 
 - 402: cross-entropy loss for multi-class classification
 - 178: random forest training and variable importance 
 - 432: mixture of experts transformers (cf. card 406 on main sub-layers in standard transformer). 
 - 433: nested cross validation: https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_nested.html (done) 
-- 434: ~~how machine learning differs from optimization: Goodfellow et. al. book, p268~~ (done) 
-- 435: ~~inference vs prediction: Gerds & Kattan *Medical Risk Prediction Models*, p27~~ (done) 
 - 436: in `lifelines`, how do you get a conditional survival curve, and conditional prediction of e.g. median lifetime. See [here](https://lifelines.readthedocs.io/en/latest/Survival%20Regression.html#prediction-on-censored-subjects)
 - 437: should a non-significant variable be dropped from a _predictive_ regression model? See [this discussion by Frank Harrell](https://discourse.datamethods.org/t/model-selection-and-assessment-of-model-fit/321/5)
-- 438: ~~one-hot encoding vs BOW for text - see j29, p89~~
-- 439: ~~visual representation of K, Q, V matrices in transformers - [Francois Fleuret slides, p5-](https://fleuret.org/public/EN_20220809-Transformers/transformers-slides.pdf) + S.Prince, _Understanding Deep Learning_, p212 & 215~~
-- 442: ~~two equivalent ways of writing ridge regression objective function~~
-- 443: ~~diagrams for ridge/lasso~~
-- 444: ~~how SHAP helps with explainability of a model~~ 
 - xx: determining whether to gather more data: Goodfellow et al book, p414; and 426 ("fit a tiny dataset")
 - xx?: How to tell if local minima are a problem in training a NN - Goodfellow et al, p277
 - xx?: variadic keyword args - see this [module]([url](https://github.com/nayefahmad/algorithms-and-design-patterns/blob/main/src/variadic-args-and-kwargs.py))
@@ -358,6 +347,6 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: High-level overview of reinforcement learning (RL) methods - J40, p149
 - xx?: RL vs supervised learning in terms of evaluative vs instructive feedback - Sutton, Ch 2 - see J40, p166
 - xx?: epsilon-greedy algorithms - Sutton, Ch 2, p4?
-- xx?: k-armed bandit, contextual bandit and full RL problemts - Sutton, Ch2, Location 1952 
+- xx?: k-armed bandit, contextual bandit and full RL problemts - Sutton, Ch2, p41 
 
 

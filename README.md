@@ -345,7 +345,7 @@ preferred, where the rate function is the derivative of the mean function.
 - xx?: Maxwell's equations: https://www.youtube.com/watch?v=hJD8ywGrXks
 - xx?: CRPS as a generalization of MAE for evaluating probabilistic forecasts: https://skforecast.org/0.18.0/faq/probabilistic-forecasting-crps-score.html
 - xx?: High-level overview of reinforcement learning (RL) methods - J40, p149
-- xx?: RL vs supervised learning in terms of evaluative vs instructive feedback - Sutton, Ch 2 - see J40, p166
+- ~~xx?: RL vs supervised learning in terms of evaluative vs instructive feedback - Sutton, Ch 2 - see J40, p166~~
 - xx?: epsilon-greedy algorithms - Sutton, Ch 2, p4?
 - xx?: k-armed bandit, contextual bandit and full RL problemts - Sutton, Ch2, p41 
 

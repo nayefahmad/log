@@ -9,13 +9,13 @@
  
 - **deeplearning.ai LangChain course**
    - L4 finished
+
  
 
 
 ## Books 
-- **The practitioner's guide to graph data**
-  - Authors:Gosnell and Broecheler 
-  - up to "When do we use properties??"  
+- x
+
 
 ## Papers 
 - **[Predicting the Survival of Patients With Cancer From Their Initial Oncology Consultation Document Using Natural Language Processing](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2801709)**

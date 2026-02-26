@@ -10,6 +10,8 @@
 - **deeplearning.ai LangChain course**
    - L4 finished
 
+- Work stuff
+   - TC's MCPs with Amazon Q 
  
 
 

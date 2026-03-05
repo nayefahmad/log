@@ -298,7 +298,8 @@ preferred, where the rate function is the derivative of the mean function.
       - [node2vec algorithm](https://arxiv.org/pdf/1607.00653) for node embeddings based on network (not based on the text)
     
    - [How to build a simple MCP server](https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp#what_is_model_context_protocol__mcp___)
-      - MCP client is an agent that passes user prompts and available tools from MCP servers to the LLM. The LLM then has the option to use a tool by returning the tool call format. This is executed by the MCP server, which returns results to the LLM. The LLM then reads the result and writes back to the user. 
+      - MCP client is an agent that passes user prompts and available tools from MCP servers to the LLM. The LLM then has the option to use a tool by returning the tool call format. This is executed by the MCP server, which returns results to the LLM. The LLM then reads the result and writes back to the user.
+      - https://github.com/Spaudel6/A-developer-s-guide-to-agentic-AI-with-model-context-protocol 
 
 
     

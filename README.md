@@ -296,6 +296,9 @@ preferred, where the rate function is the derivative of the mean function.
       - [Leiden algorithm](https://en.wikipedia.org/wiki/Leiden_algorithm) (recent improvement over Louvain algorithm) can be used to detect communities/clusters of notes
       - [The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs](https://arxiv.org/abs/2408.13296)
       - [node2vec algorithm](https://arxiv.org/pdf/1607.00653) for node embeddings based on network (not based on the text)
+    
+   - [How to build a simple MCP server](https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp#what_is_model_context_protocol__mcp___)
+      - MCP client is an agent that passes user prompts and available tools from MCP servers to the LLM. The LLM then has the option to use a tool by returning the tool call format. This is executed by the MCP server, which returns results to the LLM. The LLM then reads the result and writes back to the user. 
 
 
     

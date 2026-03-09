@@ -11,7 +11,9 @@
    - L4 finished
 
 - Work stuff
-   - TC's MCPs with Amazon Q 
+   - TC's MCPs with Amazon Q
+   - neo4j KGs in dbx
+   - adlm tests 
  
 
 

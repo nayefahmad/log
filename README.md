@@ -13,7 +13,8 @@
 - Work stuff
    - TC's MCPs with Amazon Q
    - neo4j KGs in dbx
-   - adlm tests 
+   - adlm tests
+   - interacting with gpt-4o hosted on dstar azure 
  
 
 

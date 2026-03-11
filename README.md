@@ -14,7 +14,7 @@
    - TC's MCPs with Amazon Q
    - neo4j KGs in dbx
    - adlm tests
-   - interacting with gpt-4o hosted on dstar azure 
+   - interacting with gpt-4o hosted on dstar azure + connecting to unity catalog in pycharm 
  
 
 

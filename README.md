@@ -153,7 +153,14 @@ preferred, where the rate function is the derivative of the mean function.
      
    - **Optimizing instructions and demonstrations for multi-stage language model programs**
       - Authors: Krista Opsahl-Ong et. al.
-      - Proposes MIPRO prompt optimization used in DSPy library 
+      - Proposes MIPRO prompt optimization used in DSPy library
+
+   - **[A Large-Scale Annotated Multivariate Time Series Aviation Maintenance Dataset from the NGAFID](https://arxiv.org/abs/2210.07317)**
+      - Authors: Yang & Dessel
+      - Includes dataset on Kaggle https://www.kaggle.com/datasets/hooong/aviation-maintenance-dataset-from-the-ngafid. Also see https://github.com/hyang0129/NGAFIDDATASET
+         - Benchmarking is done using InceptionTime, ConvMHSA, and MiniRocket
+         - MiniRocket for TS classification, see: https://arxiv.org/pdf/2012.08791 and https://www.sktime.net/en/stable/examples/transformation/minirocket.html. For Rocket, see https://arxiv.org/pdf/1910.13051
+         - https://www.timeseriesclassification.com/index.php 
  
 
      

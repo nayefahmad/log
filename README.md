@@ -12,9 +12,11 @@
 
 - Work stuff
    - TC's MCPs with Amazon Q
-   - neo4j KGs in dbx
+   - neo4j KGs in dbx/pycharm. 
    - adlm tests
-   - interacting with gpt-4o hosted on dstar azure + connecting to unity catalog in pycharm 
+   - interacting with gpt-4o hosted on dstar azure +
+   - connecting to dtif unity catalog in pycharm and exploring
+      - `from databricks import sql` 
  
 
 

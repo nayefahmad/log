@@ -16,7 +16,8 @@
    - adlm tests
    - interacting with gpt-4o hosted on dstar azure +
    - connecting to dtif unity catalog in pycharm and exploring
-      - `from databricks import sql` 
+      - `from databricks import sql`
+   - interacting with DTIF/TODH/DSTAR MCP endpoints 
  
 
 

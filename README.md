@@ -17,7 +17,7 @@
    - interacting with gpt-4o hosted on dstar azure +
    - connecting to dtif unity catalog in pycharm and exploring
       - `from databricks import sql`
-   - interacting with DTIF/TODH/DSTAR MCP endpoints
+   - interacting with DTIF/TODH/DSTAR MCP endpoints and dstar orchestrator API 
    - dbx data exploration with Genie
  
 

@@ -23,7 +23,8 @@
 
 
 ## Books 
-- x
+- An illustrated guide to AI agents
+   - Authors: Grootendorst and Alammar  
 
 
 ## Papers 

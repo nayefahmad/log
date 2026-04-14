@@ -11,7 +11,7 @@
    - L4 finished
 
 - Work stuff
-   - TC's MCPs with Amazon Q
+   - TC's MCPs with Amazon Q - https://gitlab-ext.digitalaviationservices.com/ds-factory/platform/software-factory/mcp-productivity-pack
    - neo4j KGs in dbx/pycharm. 
    - adlm tests
    - interacting with gpt-4o hosted on dstar azure 

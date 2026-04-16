@@ -8,17 +8,16 @@
    - Started L6
  
 - **deeplearning.ai LangChain course**
-   - L4 finished
+   - L5 ongoing 
 
 - Work stuff
    - ~~TC's MCPs with Amazon Q - https://gitlab-ext.digitalaviationservices.com/ds-factory/platform/software-factory/mcp-productivity-pack~~
-   - neo4j KGs in dbx/pycharm. 
+      - more details on MCPs 
    - adlm tests
-   - interacting with gpt-4o hosted on dstar azure 
    - connecting to dtif unity catalog in pycharm and exploring
       - `from databricks import sql`
    - dbx data exploration with Genie
-   - wji cypher queries with orchestrator 
+   - wji cypher queries with orchestrator
  
 
 

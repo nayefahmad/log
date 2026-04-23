@@ -11,8 +11,6 @@
    - L5 ongoing 
 
 - Work stuff
-   - ~~TC's MCPs with Amazon Q - https://gitlab-ext.digitalaviationservices.com/ds-factory/platform/software-factory/mcp-productivity-pack~~
-      - more details on MCPs 
    - adlm tests
    - connecting to dtif unity catalog in pycharm and exploring
       - `from databricks import sql`
@@ -23,7 +21,9 @@
 
 ## Books 
 - An illustrated guide to AI agents
-   - Authors: Grootendorst and Alammar  
+   - Authors: Grootendorst and Alammar
+- [The CP-SAT primer](https://d-krupke.github.io/cpsat-primer/00_intro.html)
+   - Author: Dominik Krupke
 
 
 ## Papers 
@@ -313,7 +313,10 @@ preferred, where the rate function is the derivative of the mean function.
     
    - [How to build a simple MCP server](https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp#what_is_model_context_protocol__mcp___)
       - MCP client is an agent that passes user prompts and available tools from MCP servers to the LLM. The LLM then has the option to use a tool by returning the tool call format. This is executed by the MCP server, which returns results to the LLM. The LLM then reads the result and writes back to the user.
-      - https://github.com/Spaudel6/A-developer-s-guide-to-agentic-AI-with-model-context-protocol 
+      - https://github.com/Spaudel6/A-developer-s-guide-to-agentic-AI-with-model-context-protocol
+    
+   - [MIP optimization basics](https://www.gurobi.com/resources/blog/mixed-integer-programming-an-introduction-to-the-basics)
+      - Branch and bound, cutting planes 
 
 
     

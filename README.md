@@ -316,7 +316,10 @@ preferred, where the rate function is the derivative of the mean function.
       - https://github.com/Spaudel6/A-developer-s-guide-to-agentic-AI-with-model-context-protocol
     
    - [MIP optimization basics](https://www.gurobi.com/resources/blog/mixed-integer-programming-an-introduction-to-the-basics)
-      - Branch and bound, cutting planes 
+      - Branch and bound, cutting planes
+    
+   - [Lexicographic optimization for multi-objective problems](https://en.wikipedia.org/wiki/Lexicographic_optimization)
+      - This refers to a multi-objective optimization problem with lexicographic preferences over objective functions. Several algorithms can be applied to this situation. 
 
 
     

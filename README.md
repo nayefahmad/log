@@ -16,7 +16,8 @@
       - `from databricks import sql`
    - dbx data exploration with Genie
    - wji cypher queries with orchestrator
-   - mutli-stage state-dependent optimization problem 
+   - mutli-stage state-dependent optimization problem
+      - or-tools CP-SAT solver 
  
 
 

@@ -314,15 +314,18 @@ preferred, where the rate function is the derivative of the mean function.
       - [The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs](https://arxiv.org/abs/2408.13296)
       - [node2vec algorithm](https://arxiv.org/pdf/1607.00653) for node embeddings based on network (not based on the text)
     
-   - [How to build a simple MCP server](https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp#what_is_model_context_protocol__mcp___)
+   - **[How to build a simple MCP server](https://developers.redhat.com/articles/2025/08/12/how-build-simple-agentic-ai-server-mcp#what_is_model_context_protocol__mcp___)**
       - MCP client is an agent that passes user prompts and available tools from MCP servers to the LLM. The LLM then has the option to use a tool by returning the tool call format. This is executed by the MCP server, which returns results to the LLM. The LLM then reads the result and writes back to the user.
       - https://github.com/Spaudel6/A-developer-s-guide-to-agentic-AI-with-model-context-protocol
     
-   - [MIP optimization basics](https://www.gurobi.com/resources/blog/mixed-integer-programming-an-introduction-to-the-basics)
+   - **[MIP optimization basics](https://www.gurobi.com/resources/blog/mixed-integer-programming-an-introduction-to-the-basics)**
       - Branch and bound, cutting planes
     
-   - [Lexicographic optimization for multi-objective problems](https://en.wikipedia.org/wiki/Lexicographic_optimization)
-      - This refers to a multi-objective optimization problem with lexicographic preferences over objective functions. Several algorithms can be applied to this situation. 
+   - **[Lexicographic optimization for multi-objective problems](https://en.wikipedia.org/wiki/Lexicographic_optimization)**
+      - This refers to a multi-objective optimization problem with lexicographic preferences over objective functions. Several algorithms can be applied to this situation.
+    
+   - **[How Anthropic enables self-service data analytics with Claude](https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude)**
+      - x
 
 
     

@@ -167,7 +167,12 @@ preferred, where the rate function is the derivative of the mean function.
       - Includes dataset on Kaggle https://www.kaggle.com/datasets/hooong/aviation-maintenance-dataset-from-the-ngafid. Also see https://github.com/hyang0129/NGAFIDDATASET
          - Benchmarking is done using InceptionTime, ConvMHSA, and MiniRocket
          - MiniRocket for TS classification, see: https://arxiv.org/pdf/2012.08791 and https://www.sktime.net/en/stable/examples/transformation/minirocket.html. For Rocket, see https://arxiv.org/pdf/1910.13051
-         - https://www.timeseriesclassification.com/index.php 
+         - https://www.timeseriesclassification.com/index.php
+       
+   - **[MTEB: Massive Text Embedding Benchmark](https://arxiv.org/pdf/2210.07316)**
+      - Authors: Muennighoff et al 
+      - This was shared by Jacob F as part of a plan to develop embeddings for mx text. To evaluate the embeddings he wanted the CCLA outputs with full logits. 
+      - MTEB spans 8 embedding tasks covering a total of 58 datasets and 112 languages. Through the benchmarking of 33 models on MTEB, we establish the most comprehensive benchmark of text embeddings to date.
  
 
      
